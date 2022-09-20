@@ -29,3 +29,14 @@ Vurderingskriterier
 - [ ]  Versjonshåndering
 - [ ]  Responsivitet
 - [ ]  Prototyper
+
+
+Websider:
+
+https://spoonagency.no/
+https://www.havnevik.no/
+https://www.vaersaagod.no/
+
+bad:
+https://www.unfold.no/
+https://snohetta.com/
