@@ -1,1 +1,10 @@
 /* Variable stylesheet*/
+
+:root {
+    --primary_color: #22223b;
+    --secondary_color: #db00ff;
+    --background-color: #F4FdFF;
+    --card-text-box-color: #535380;
+    --border-radius: 20px;
+    --border-radius-card-button: 0px 0px 20px 20px;
+}
