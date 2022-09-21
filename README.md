@@ -40,3 +40,6 @@ https://www.vaersaagod.no/
 bad:
 https://www.unfold.no/
 https://snohetta.com/
+https://ore.co/
+https://irl-url.com/
+https://porta-nyc.com/
