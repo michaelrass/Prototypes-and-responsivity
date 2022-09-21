@@ -29,3 +29,25 @@ Vurderingskriterier
 - [ ]  Versjonshåndering
 - [ ]  Responsivitet
 - [ ]  Prototyper
+
+
+Websider:
+
+https://spoonagency.no/
+https://www.havnevik.no/
+https://www.vaersaagod.no/
+https://leica-camera.com/en-int
+https://www.illy.com/en-ww/home
+https://www.converse.com/uk
+https://www.unrivaledpostproduction.com/
+https://www.studiolenzing.com/
+https://www.stormstudios.no/
+
+bad:
+https://www.unfold.no/
+https://snohetta.com/
+https://ore.co/
+https://irl-url.com/
+https://porta-nyc.com/
+https://www.the-loop.tv/
+https://shoprhode.com/
