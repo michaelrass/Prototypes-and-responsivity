@@ -1,3 +1,33 @@
-body {
-    background-color: #fff;
+html {
+    font-size: 20px;
 }
+
+body {
+    background-color: var(--background-text-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 3.5rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.navigationbar {
+    display: flex;
+    align-items: center;
+}
+
+.navigationbar__logo {
+    margin: 1rem;
+    font-size: 2rem;
+    color: var(--background-text-color);
+}
+
+.navigationbar__logo--secondary-color {
+    color: var(--secondary-color);
+    font-weight: 800;
+}
+

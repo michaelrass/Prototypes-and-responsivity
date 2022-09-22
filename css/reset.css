@@ -11,3 +11,7 @@ button {
     background: inherit;
     color: inherit;
 }
+
+li {
+    list-style: none;
+}
