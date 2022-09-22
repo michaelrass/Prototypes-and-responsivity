@@ -86,3 +86,44 @@ header {
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
 }
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1rem auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card__box {
+    background-color: var(--primary-color);
+    width: 19rem;
+    border-radius: var(--border-radius);
+    height: 30rem;
+    text-align: center;
+}
+
+.card__img {
+    width: 100%;
+    border-radius: var(--border-radius-card-img);
+}
+
+.card__title {
+    font-size: 1.6rem;
+    color: var(--background-text-color);
+}
+
+.card__quote {
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.card__quote::before, .card__quote::after {
+    content: '"';
+}
+
+.card p { 
+    color: var(--background-text-color);
+    padding: 1rem;
+}
