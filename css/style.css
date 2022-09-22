@@ -67,13 +67,22 @@ header {
 .main-title__button {
     width: 11.75rem;
     padding: 0.1rem 0;
+    color: var(--primary-color);
     border-radius: var(--border-radius);
     background-color: var(--secondary-color);
     margin-top: 6rem;
+    transition: all 300ms ease-in-out;
+    transition-delay: 0.1s;
 }
 
 .main-title__button a {
-    color: var(--primary-color);
+    color: inherit;
     font-weight: 600;
     font-size: 1.5rem;
+}
+
+.main-title__button:hover {
+    background-color: var(--background-text-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
 }
