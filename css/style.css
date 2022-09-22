@@ -31,3 +31,14 @@ header {
     font-weight: 800;
 }
 
+.navigationbar__item::after {
+    content: url(../assets/icons/Icon.png);
+    color: var(--background-text-color);
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 2rem;
+    height: 2rem;
+
+}
+
