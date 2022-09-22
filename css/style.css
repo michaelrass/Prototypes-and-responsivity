@@ -13,6 +13,8 @@ header {
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 .navigationbar {
@@ -33,7 +35,6 @@ header {
 
 .navigationbar__item::after {
     content: url(../assets/icons/Icon.png);
-    color: var(--background-text-color);
     position: absolute;
     right: 1rem;
     top: 1rem;
@@ -42,3 +43,37 @@ header {
 
 }
 
+.main-title {
+    background-image: url(../assets/img/bg-img3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 85vh;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.main-title__header {
+    font-size: 2.441rem;
+    padding: 5rem 0 1rem;
+}
+
+.main-title__text {
+    font-size: 1rem;
+    line-height: 1.7;
+    padding: 1rem;
+}
+
+.main-title__button {
+    width: 11.75rem;
+    padding: 0.1rem 0;
+    border-radius: var(--border-radius);
+    background-color: var(--secondary-color);
+    margin-top: 6rem;
+}
+
+.main-title__button a {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
