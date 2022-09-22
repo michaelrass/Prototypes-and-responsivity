@@ -35,17 +35,18 @@ header {
 .main__section-intro {
     background-image: url(../assets/img/placeholder-backgroundimage.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1920px;
     margin: auto;
     height: auto;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 80vh;
     align-items: center;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 3rem;
     text-align: center;
     position: relative;
 }
@@ -74,7 +75,7 @@ h1 {
 #intro-button:hover {
     background-color: var(--button-hover-color);
     color: var(--background-color);
-    box-shadow: 2px 2px 5px 0px #22223b;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #arrow-down-img {
@@ -82,4 +83,87 @@ h1 {
     height: 75px;
     position: absolute;
     bottom: -3rem;
+}
+
+.main__section-cards {
+    margin: 3rem auto;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+.cards__container {
+    background-color: var(--primary_color);
+    color: var(--background-color);
+    width: 379px;
+    min-width: 379px;
+    height: 728px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin: 2rem;
+    position: relative;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .cards__container:hover {
+        scale: 1.02;
+        transition: 300ms ease-in-out;
+        transition-delay: 100ms;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .main__section-cards {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+.cards__image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card__company-name {
+    width: 90%;
+    text-align: center;
+    border-bottom: 1px solid var(--background-color);
+    color: var(--background-color);
+    position: absolute;
+    top: 12rem;
+}
+
+.card__company-quote {
+    font-style: italic;
+    font-size: 0.8rem;
+    width: 80%;
+}
+
+.card__our-quote {
+    width: 90%;
+}
+
+.visit-button {
+    background-color: var(--secondary_color);
+    color: var(--background_color);
+    border: none;
+    font-size: 1.5rem;
+    width: 379px;
+    height: 73px;
+    border-radius: 0px 0px 20px 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5rem;
 }
