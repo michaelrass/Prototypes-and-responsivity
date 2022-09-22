@@ -1,5 +1,9 @@
 @import url(./variables.css);
 
+* {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 20px;
 }
@@ -14,15 +18,23 @@ body {
 header {
     font-size: 2rem;
     font-weight: 600;
-    width: 100%;
+    width: 99%;
     height: 70px;
     background-color: var(--primary_color);
     color: var(--background-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 1rem;
+    margin: auto;
+}
+
+nav {
+    font-size: 1rem;
     padding-right: 1rem;
+}
+
+.header__div-logo {
+    padding-left: 1rem;
 }
 
 .header__logo-web {
@@ -45,7 +57,7 @@ header {
     justify-content: space-around;
     height: 80vh;
     align-items: center;
-    padding: 3rem;
+    padding: 0 0 3rem 0;
     text-align: center;
     position: relative;
 }
