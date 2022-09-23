@@ -5,6 +5,7 @@ html {
 body {
     background-color: var(--background-text-color);
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 3rem;
 }
 
 header {
@@ -109,7 +110,7 @@ header {
     flex-flow: column nowrap;
     margin: 1rem auto;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .card__box {
@@ -118,6 +119,12 @@ header {
     border-radius: var(--border-radius);
     height: 30rem;
     text-align: center;
+    transition: all 300ms ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.card__box:hover {
+    transform: scale(1.1);
 }
 
 .card__img {
@@ -148,6 +155,29 @@ header {
 
 .card__quote::before, .card__quote::after {
     content: '"';
+}
+
+.card__button {
+    width: 100%;
+    border-radius: var(--border-radius-card-button);
+    margin-top: 2.37rem;
+    padding: 0.3rem;
+    background-color: var(--secondary-color);
+    color: var(--background-text-color);
+    transition: all 300ms ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.card__button:hover {
+    background-color: var(--background-text-color);
+    border: 0.2rem solid var(--secondary-color);
+    color: var(--secondary-color)
+}
+
+.card__button a {
+    color: inherit;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .card p { 
