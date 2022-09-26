@@ -79,7 +79,7 @@ header {
 .main-title__button a {
     color: inherit;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .main-title__button:hover {
@@ -190,7 +190,7 @@ header {
 
 .card__button a {
     color: inherit;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
