@@ -29,15 +29,15 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
+    padding: 1.5rem;
 }
 
 nav {
     font-size: 1rem;
-    padding-right: 1rem;
 }
 
 .header__div-logo {
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
 }
 
 .header__logo-web {
@@ -100,6 +100,7 @@ h1 {
 }
 
 .main__section-cards {
+    max-width: 1920px;
     margin: 3rem auto;
     height: auto;
     width: 100%;
@@ -149,6 +150,7 @@ h1 {
     width: 100%;
     height: auto;
     border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -190,12 +192,6 @@ h1 {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 0.5rem;
-}
-
-.visit-button:hover {
-    font-size: 1.6rem;
-    transition: 200ms ease-in-out;
-    transition-delay: 200ms;
 }
 
 a {
