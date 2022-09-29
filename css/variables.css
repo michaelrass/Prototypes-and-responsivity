@@ -1,11 +1,9 @@
-/* Variable stylesheet*/
-
 :root {
-    --primary_color: #22223b;
-    --secondary_color: #db00ff;
-    --background-color: #F4FdFF;
-    --card-text-box-color: #535380;
+    --primary-color: #09090d;
+    --secondary-color: #1990B6;
+    --background-text-color: #F4FdFF;
     --border-radius: 20px;
+    --button-hover-color: #13C4FC;
     --border-radius-card-button: 0px 0px 20px 20px;
-    --box-shadow: 0px 0px 4px 4px #22223b;
+    --border-radius-card-img: 20px 20px 0px 0px;
 }
