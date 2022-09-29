@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #09090d;
+    --secondary-color: #1990B6;
+    --background-text-color: #F4FdFF;
+    --border-radius: 20px;
+    --button-hover-color: #13C4FC;
+    --border-radius-card-button: 0px 0px 20px 20px;
+    --border-radius-card-img: 20px 20px 0px 0px;
+}
