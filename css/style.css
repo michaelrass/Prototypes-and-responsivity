@@ -2,10 +2,13 @@ html {
     font-size: 20px;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background-text-color);
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 3rem;
 }
 
 header {
@@ -14,7 +17,8 @@ header {
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
-    position: fixed;
+    position: sticky;
+    z-index: 2;
     top: 0;
 }
 
@@ -50,7 +54,7 @@ header {
 }
 
 .main-title {
-    background-image: url(../assets/img/bg-img3.png);
+    background-image: url(../assets/img/bg-img6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -139,11 +143,13 @@ header {
     .card__box {
         width: 16rem;
         height: 32rem;
+        max-width: 16rem;
+        min-width: 16rem;
     }
 }
 
 .card__box:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .card__img {

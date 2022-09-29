@@ -28,19 +28,19 @@
 	font-family: 'Poppins';
 	src: url(../assets/fonts/Poppins-SemiBold.ttf);
 	font-weight: 600;
-	font-style: bold;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Poppins';
 	src: url(../assets/fonts/Poppins-Bold.ttf);
 	font-weight: 700;
-	font-style: bold;	
+	font-style: normal;	
 }
 
 @font-face {
 	font-family: 'Poppins';
 	src: url(../assets/fonts/Poppins-ExtraBold.ttf);
 	font-weight: 800;
-	font-style: bold;
+	font-style: normal;
 }
