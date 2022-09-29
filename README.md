@@ -3,6 +3,8 @@ Temaoppgave Prototyper og responsivitet
 
 Dette temaet belyser modeller og metoder for utviklingen av responsive nettsider og web-applikasjoner. Videre introduserer temaet verktøy for bruk av prototyper for å utforme og implementere brukergrensesnitt.
 
+Figma file: https://www.figma.com/file/nxH2hgvQOrvMdMJRLKscan/Fancy-web?node-id=0%3A1
+
 ### Temaoppgave
 
 Implementer en inspirasjonsside
