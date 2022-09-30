@@ -1,5 +1,81 @@
+html {
+    font-size: 20px;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #fff;
+    background-color: var(--background-text-color);
+    font-family: 'Poppins';
+}
+
+header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: var(--primary-color);
+    color: var(--background-text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo__web {
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.header__about-contact {
+    display: flex;
+    gap: 6rem;
+    font-size: 1.5rem;
+}
+
+.header__about, .header__contact {
+    height: 100%;
+    position: relative;
+}
+
+.header__about:after, .header__contact:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--background-text-color);
+    transform-origin: bottom left;
+    transition: transform 0.2s;
+}
+
+.header__about:hover:after, .header__contact:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media (min-width: 768px) {
+    #burger-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__about-contact {
+        display: none;
+    }
 }
 
 /*Downloaded image from https://unsplash.com/photos/6-C0VRsagUw*/
