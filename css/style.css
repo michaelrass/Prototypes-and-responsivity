@@ -136,4 +136,44 @@ h1 {
     bottom: -4rem;
 }
 
+.card {
+    display: flex;
+    max-width: 80rem;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.card__box {
+    margin: 0 auto;
+    max-width: 19rem;
+    background-color: var(--primary-color);
+    color: var(--background-text-color);
+    text-align: center;
+    border-radius: var(--border-radius);
+}
+
+.card__img {
+    max-width: 19rem;
+    border-radius: var(--border-radius-card-img);
+}
+
+.card__title, .card__quote, .card__text {
+    padding: 1rem;
+}
+
+.card__button {
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: var(--border-radius-card-button);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    transition: all 300ms ease-in-out;
+}
+
+.card__button:hover {
+    background-color: var(--button-hover-color);
+}
+
 /*Downloaded background-image from https://unsplash.com/photos/6-C0VRsagUw*/
