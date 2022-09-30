@@ -138,7 +138,7 @@ h1 {
 
 .card {
     display: flex;
-    max-width: 80rem;
+    max-width: 90rem;
     justify-content: center;
     flex-flow: column nowrap;
     gap: 2rem;
