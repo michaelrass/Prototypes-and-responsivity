@@ -58,7 +58,7 @@ a {
     left: 0;
     background-color: var(--background-text-color);
     transform-origin: bottom left;
-    transition: transform 0.2s;
+    transition: transform 0.3s;
 }
 
 .header__about:hover:after, .header__contact:hover:after {
@@ -78,4 +78,4 @@ a {
     }
 }
 
-/*Downloaded image from https://unsplash.com/photos/6-C0VRsagUw*/
+/*Downloaded background-image from https://unsplash.com/photos/6-C0VRsagUw*/
