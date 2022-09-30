@@ -78,6 +78,64 @@ a {
     }
 }
 
+.introduction {
+    background-image: url(../assets/img/bg-img6-new.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+    padding: 0 5rem 3rem 5rem;
+    position: relative;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+}
+
+.introduction__paragraph {
+    font-size: 1rem;
+}
+
+.introduction__button {
+    background: var(--secondary-color);
+    border: none;
+    width: 11.75rem;
+    height: 2.25rem;
+    border-radius: 21.5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.introduction__button:hover {
+    background: var(--button-hover-color);
+}
+
+@media screen and (max-width: 768px) {
+    .introduction__button:hover {
+        background: var(--secondary-color);
+    }
+}
+
+#arrow-down {
+    position: absolute;
+    bottom: -4rem;
+}
+
 .card {
     display: flex;
     max-width: 80rem;
