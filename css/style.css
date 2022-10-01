@@ -96,6 +96,12 @@ a {
     position: relative;
 }
 
+@media screen and (max-width: 576px) {
+    .introduction {
+        padding: 0.5rem;
+    }
+}
+
 h1 {
     font-size: 2rem;
 }
