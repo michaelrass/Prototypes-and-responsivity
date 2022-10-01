@@ -178,8 +178,14 @@ h1 {
     align-items: center;
 }
 
-.card__box:hover {
+/* .card__box:hover {
     transform: scale(1.03);
+} */
+
+@media screen and (min-width: 768px) {
+    .card__box:hover {
+        transform: scale(1.03)
+    }
 }
 
 .card__img {
@@ -225,8 +231,10 @@ h1 {
     font-weight: 600;
 }
 
-.card__link:hover {
-    background-color: var(--button-hover-color);
+@media screen and (min-width: 768px) {
+    .card__link:hover {
+        background-color: var(--button-hover-color);
+    }
 }
 
 .contact {
