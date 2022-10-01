@@ -250,3 +250,11 @@ h1 {
     display: block;
     margin: 1rem 0;
 }
+
+.back-to-top {
+    border: 2px solid #F4FdFF;
+    padding: 0.2rem;
+    border-radius: 21.5px;
+    font-size: 0.7rem;
+    font-style: italic;
+}
